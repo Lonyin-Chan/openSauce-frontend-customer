@@ -1,0 +1,64 @@
+.account-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .account-header {
+    background-color: #1d5a3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .account-details, .recent-transactions {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-details h2, .recent-transactions h2 {
+    margin-top: 0;
+  }
+  
+  .recent-transactions table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recent-transactions th, .recent-transactions td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .recent-transactions th {
+    background-color: #1d5a3c;
+    color: white;
+  }
+  
+  .credit {
+    color: green;
+  }
+  
+  .debit {
+    color: red;
+  }
+  
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1d5a3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3f9f73;
+  }
+  
